@@ -8,15 +8,15 @@ A dynamic movie discovery application built with **React** and the **TMDB API**.
 
 ### Home Screen
 Displays the top 40 trending movies currently available on TMDB.
-![Home Screen](Screenshot%202026-02-21%20075813.jpg)
+![Home Screen](Images\Home.png)
 
 ### Search Functionality
 Live search capability allowing users to find specific titles across the entire TMDB database.
-![Search Screen](Screenshot%202026-02-21%20075852.jpg)
+![Search Screen](Images\Search.png)
 
 ### Favorites Management
 A personalized section where users can view movies they have bookmarked using the heart icon.
-![Favorites Screen](Screenshot%202026-02-21%20075911.jpg)
+![Favorites Screen](Images\Fav.png)
 
 ---
 
