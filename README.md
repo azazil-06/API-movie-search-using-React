@@ -1,59 +1,41 @@
 # goat ARJUN - Movie Search App 🎬
 
-A dynamic movie discovery application built with **React** and the **TMDB API**. This project demonstrates the ability to handle API integration, state management, and responsive UI design.
+A dynamic movie discovery application built with **React** and the **TMDB API**.
 
 ---
 
 ## 📸 Project Showcases
 
 ### Home Screen
-Displays the top 40 trending movies currently available on TMDB.
-![Home Screen](Home.png)
+<img src="Home.png" width="800" alt="Home Screen">
 
 ### Search Functionality
-Live search capability allowing users to find specific titles across the entire TMDB database.
-![Search Screen](Search.png)
+<img src="Search.png" width="800" alt="Search Screen">
 
 ### Favorites Management
-A personalized section where users can view movies they have bookmarked using the heart icon.
-![Favorites Screen](Fav.png)
+<img src="Fav.png" width="800" alt="Favorites Screen">
 
 ---
 
 ## 🚀 Features
 
 * **Top 40 Movies**: Fetches and displays the most popular films on load.
-* **Search Bar**: Real-time filtering and API querying for any movie title.
+* **Search Bar**: Real-time filtering and API querying.
 * **Favorite Tab**: Save your favorite movies to a dedicated list.
-* **Theme Changer**: Toggle between Light and Dark modes for better UX.
-* **Responsive Design**: Works smoothly across different screen sizes.
+* **Theme Changer**: Toggle between Light and Dark modes.
 
 ## 🛠️ Tech Stack
-
 * **Library**: React.js
-* **Data Source**: TMDB (The Movie Database) API
-* **Styling**: CSS (with Theme Variables)
+* **Data Source**: TMDB API
+* **Styling**: CSS with Theme Variables
 
 ## ⚙️ Configuration & Setup
 
 > [!CAUTION]
-> **API Key Required**: For security reasons, the API key has been removed from this repository.
+> **API Key Required**: You must provide your own TMDB API key in `src/services/api.js`.
 
-1.  **Clone the project**:
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    ```
-2.  **Add your API Key**:
-    * Open `src/services/api.js`.
-    * Find the API variable and insert your TMDB key:
-    ```javascript
-    const API_KEY = "YOUR_TMDB_API_KEY_HERE";
-    ```
-3.  **Install & Run**:
-    ```bash
-    npm install
-    npm start
-    ```
+1. **Install dependencies**: `npm install`
+2. **Run the app**: `npm start`
 
 ---
 *Created by Arjun*
