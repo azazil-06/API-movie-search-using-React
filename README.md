@@ -38,4 +38,4 @@ A dynamic movie discovery application built with **React** and the **TMDB API**.
 2. **Run the app**: `npm start`
 
 ---
-*Created by Arjun*
+*Created by jimbru*
